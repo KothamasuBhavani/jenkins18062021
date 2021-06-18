@@ -19,5 +19,9 @@ public class HelloController {
 	public String sayBye() {
 		return "<h1>Good Bye  jenkins</h1>";
 	}
+	@RequestMapping("/gm")
+	public String sayGm() {
+		return "<h1>GoodMorning jenkins</h1>";
+	}
 
 }
