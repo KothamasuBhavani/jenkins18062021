@@ -14,5 +14,10 @@ public class HelloController {
 	public String sayHi() {
 		return "<h1>Say Hi to jenkins</h1>";
 	}
+	
+	@RequestMapping("/bye")
+	public String sayBye() {
+		return "<h1>Good Bye  jenkins</h1>";
+	}
 
 }
